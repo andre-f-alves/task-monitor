@@ -4,8 +4,39 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Task Monitor</title>
+  <link rel="stylesheet" href="styles/globals.css">
 </head>
 <body>
-  
+  <div class="page-container">
+    <div class="header-container">
+      <header>
+        <h1>Task Monitor</h1>
+        <button type="button">Dark|Light Mode</button>
+      </header>
+    </div>
+    
+    <div class="nav-bar-container">
+      <nav>
+        <ul>
+          <li>Minhas listas</li>
+          <li>Lixeira</li>
+        </ul>
+      </nav>
+      
+      <button type="button">+</button>
+    </div>
+
+    <div class="main-container">
+      <main>
+        <div class="no-content-display">
+          <p>
+            Abra ou crie uma nova lista para exibi-lá aqui.
+          </p>
+        </div>
+      </main>
+    </div>
+  </div>
+
+  <script type="module" src="scripts/main.js"></script>
 </body>
 </html>
